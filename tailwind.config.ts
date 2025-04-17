@@ -52,6 +52,17 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Nigeria-inspired color palette
+				naija: {
+					green: "#0A6E31", // Nigerian flag green
+					gold: "#F4D55C", // Gold accent
+					terracotta: "#CF5C36", // Earth tone
+					neutral: "#F4F1DE", // Light neutral
+					dark: "#1A1F2C", // Dark tone
+					success: "#2E933C", // Success green
+					warning: "#F4AC45", // Warning yellow/gold
+					danger: "#BA3B46", // Danger red
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
