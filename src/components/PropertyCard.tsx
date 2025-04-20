@@ -67,9 +67,9 @@ const PropertyCard = ({ property }: PropertyCardProps) => {
           className="object-cover w-full h-48"
         />
         <div className="absolute top-2 right-2">
-          <Badge className={rentOrSale === "rent" ? "bg-blue-500" : "bg-naija-green"}>
-            <span>{rentOrSale === "rent" ? "For Rent" : "For Sale"}</span>
-          </Badge>
+          <div className={rentOrSale === "rent" ? "bg-blue-500 inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold text-white" : "bg-naija-green inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold text-white"}>
+            {rentOrSale === "rent" ? "For Rent" : "For Sale"}
+          </div>
         </div>
         {hasVerifiedTitle && (
           <div className="absolute bottom-2 left-2 bg-white/90 px-2 py-1 rounded-md flex items-center text-xs font-medium text-naija-green">

@@ -40,3 +40,8 @@ interface PropertyType {
 interface PropertyCardProps {
   property: PropertyType;
 }
+
+// Add BadgeProps definition for proper typing
+interface BadgeProps extends React.HTMLAttributes<HTMLDivElement> {
+  variant?: "default" | "secondary" | "destructive" | "outline";
+}
