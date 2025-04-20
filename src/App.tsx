@@ -9,6 +9,8 @@ import PropertyDetails from "./pages/PropertyDetails";
 import MapView from "./pages/MapView";
 import BlockchainView from "./pages/BlockchainView";
 import NotFound from "./pages/NotFound";
+import Manager from "./pages/Manager";
+import ManagerDashboard from "./pages/ManagerDashboard";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +28,8 @@ const App = () => (
           <Route path="/buy" element={<Index />} />
           <Route path="/rent" element={<Index />} />
           <Route path="/sell" element={<Index />} />
+          <Route path="/manager" element={<Manager />} />
+          <Route path="/manager-dashboard" element={<ManagerDashboard />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
