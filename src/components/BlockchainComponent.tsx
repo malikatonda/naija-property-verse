@@ -61,10 +61,12 @@ const BlockchainComponent = () => {
               <CardTitle>Secure Property Transactions</CardTitle>
               <CardDescription>Using blockchain smart contracts</CardDescription>
             </div>
-            <Badge variant="outline" className="flex items-center gap-1">
+            <div className="flex items-center gap-1">
               <span className={`w-2 h-2 rounded-full ${connected ? 'bg-green-500' : 'bg-gray-300'}`}></span>
-              {connected ? 'Connected' : 'Not Connected'}
-            </Badge>
+              <span className="text-xs font-semibold">
+                {connected ? 'Connected' : 'Not Connected'}
+              </span>
+            </div>
           </div>
         </CardHeader>
         

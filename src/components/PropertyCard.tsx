@@ -68,7 +68,7 @@ const PropertyCard = ({ property }: PropertyCardProps) => {
         />
         <div className="absolute top-2 right-2">
           <Badge className={rentOrSale === "rent" ? "bg-blue-500" : "bg-naija-green"}>
-            {rentOrSale === "rent" ? "For Rent" : "For Sale"}
+            <span>{rentOrSale === "rent" ? "For Rent" : "For Sale"}</span>
           </Badge>
         </div>
         {hasVerifiedTitle && (
