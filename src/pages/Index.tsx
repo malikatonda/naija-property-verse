@@ -95,7 +95,7 @@ const Index = () => {
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10 pointer-events-none"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1604014056465-b158caa9a751?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+                  src="https://images.unsplash.com/photo-1515982451706-e3dce63b4b88?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Lagos aerial view"
                   className="w-full h-[500px] object-cover"
                 />
@@ -155,7 +155,7 @@ const Index = () => {
               <Button size="lg" className="bg-white text-naija-green hover:bg-gray-100">
                 Start Browsing
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="border-white bg-white/10 text-white hover:bg-white/10">
                 List Your Property
               </Button>
             </div>
