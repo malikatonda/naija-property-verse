@@ -94,7 +94,9 @@ const BlockchainComponent = () => {
                     3 Bedroom Apartment in Lekki, Lagos
                   </p>
                   <div className="mt-2">
-                    <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-100">Smart Contract</Badge>
+                    <div className="bg-blue-100 text-blue-800 inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold">
+                      Smart Contract
+                    </div>
                   </div>
                 </div>
               </div>
