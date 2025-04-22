@@ -1,73 +1,154 @@
-# Welcome to your Lovable project
 
-## Project info
+# NaijaPropertyVerse 🏠
 
-**URL**: https://lovable.dev/projects/d16d6498-0a73-4599-99e9-49de9b3c7751
+A modern real estate platform for the Nigerian property market, combining blockchain technology, AI recommendations, and interactive maps to revolutionize property transactions in Nigeria.
 
-## How can I edit this code?
+## 🌟 Features
 
-There are several ways of editing your application.
+### For Property Seekers
+- **Smart Search**: Advanced filtering for properties across major Nigerian cities
+- **Interactive Maps**: Visual exploration of neighborhoods with detailed insights
+- **AI Recommendations**: Personalized property suggestions based on preferences
+- **Virtual Tours**: 360° property views and detailed photo galleries
+- **Secure Transactions**: Blockchain-based property verification and payments
 
-**Use Lovable**
+### For Property Owners
+- **Easy Listing**: Streamlined process to list properties for sale or rent
+- **AI-Powered Descriptions**: Automated, SEO-friendly property descriptions
+- **Market Analytics**: Real-time market insights and pricing recommendations
+- **Document Verification**: Blockchain-based property document verification
+- **Smart Contracts**: Automated, secure transaction processing
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d16d6498-0a73-4599-99e9-49de9b3c7751) and start prompting.
+### For Diaspora Investors
+- **International Payments**: Secure cross-border transaction support
+- **Document Verification**: Remote property document authentication
+- **Market Intelligence**: Data-driven investment insights
+- **Property Management**: Remote property monitoring and management tools
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Technology Stack
 
-**Use your preferred IDE**
+- **Frontend**: React + TypeScript
+- **UI Framework**: TailwindCSS + shadcn/ui
+- **State Management**: TanStack Query
+- **Routing**: React Router DOM
+- **Icons**: Lucide React
+- **Charts**: Recharts
+- **Maps**: Mapbox GL
+- **Notifications**: Toast components
+- **Blockchain Integration**: Web3 connectivity
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🔧 Installation & Setup
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd naija-property-verse
+   ```
 
-Follow these steps:
+2. **Install dependencies**
+   ```bash
+   bun install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Start development server**
+   ```bash
+   bun run dev
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. **Build for production**
+   ```bash
+   bun run build
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📚 Project Structure
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+naija-property-verse/
+├── src/
+│   ├── components/         # Reusable UI components
+│   │   ├── ui/            # Base UI components
+│   │   └── ...           
+│   ├── pages/             # Route pages
+│   ├── hooks/             # Custom React hooks
+│   ├── lib/               # Utility functions
+│   └── types.d.ts         # TypeScript definitions
+├── public/                # Static assets
+└── ...config files
 ```
 
-**Edit a file directly in GitHub**
+## 🔐 Key Components
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Property Search
+- Advanced filtering system
+- Geolocation-based search
+- Price range filters
+- Property type categorization
 
-**Use GitHub Codespaces**
+### Interactive Maps
+- Neighborhood visualization
+- Property hotspots
+- Area statistics
+- Points of interest
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Blockchain Features
+- Smart contracts integration
+- Document verification
+- Secure payments
+- Transaction history
 
-## What technologies are used for this project?
+### AI Integration
+- Property recommendations
+- Price predictions
+- Description generation
+- Market trend analysis
 
-This project is built with:
+## 📱 Responsive Design
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The platform is fully responsive and optimized for:
+- Desktop computers
+- Tablets
+- Mobile devices
+- Large screens
 
-## How can I deploy this project?
+## 🔒 Security Features
 
-Simply open [Lovable](https://lovable.dev/projects/d16d6498-0a73-4599-99e9-49de9b3c7751) and click on Share -> Publish.
+- Blockchain-based verification
+- Secure payment processing
+- Document authentication
+- User data protection
+- Role-based access control
 
-## Can I connect a custom domain to my Lovable project?
+## 🌐 Browser Support
 
-Yes, you can!
+- Chrome (last 2 versions)
+- Firefox (last 2 versions)
+- Safari (last 2 versions)
+- Edge (last 2 versions)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🤝 Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🔗 Additional Resources
+
+- [Technical Documentation](docs/technical.md)
+- [API Documentation](docs/api.md)
+- [User Guide](docs/user-guide.md)
+- [Deployment Guide](docs/deployment.md)
+
+## 📞 Support
+
+For support, please email [support@naijapropertyverse.com](mailto:support@naijapropertyverse.com)
+
+---
+
+Built with ❤️ for the Nigerian Real Estate Market
+
